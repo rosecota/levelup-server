@@ -1,0 +1,26 @@
+[
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "maker": "Wizards of the Coast",
+            "number_of_players": 6,
+            "skill_level": 3,
+            "game_type": 2,
+            "gamer": 1
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Rummikub",
+            "maker": "Sabra",
+            "number_of_players": 4,
+            "skill_level": 5,
+            "game_type": 1,
+            "gamer": 1
+        }
+    }
+]
