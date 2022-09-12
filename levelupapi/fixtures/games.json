@@ -13,7 +13,7 @@
     },
     {
         "model": "levelupapi.game",
-        "pk": 1,
+        "pk": 2,
         "fields": {
             "title": "Rummikub",
             "maker": "Sabra",
