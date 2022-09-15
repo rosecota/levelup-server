@@ -6,9 +6,9 @@ from levelupapi.views import register_user, login_user
 from levelupapi.views import GameTypeView, GameView, EventView
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register('gametypes', GameTypeView, 'gametype')
-router.register('games', GameView, 'game')
-router.register('events', EventView, 'event')
+router.register(r'gametypes', GameTypeView, 'gametype')
+router.register(r'games', GameView, 'game')
+router.register(r'events', EventView, 'event')
 
 urlpatterns = [
     path('register', register_user),
