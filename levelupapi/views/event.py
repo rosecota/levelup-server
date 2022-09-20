@@ -78,5 +78,4 @@ class CreateEventSerializer(serializers.ModelSerializer):
                   'game',
                   'description',
                   'date',
-                  'time',
-                  'organizer']
+                  'time']
